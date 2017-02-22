@@ -1,4 +1,3 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
 
     Licensed to Apereo under one or more contributor license
@@ -19,6 +18,7 @@
     under the License.
 
 --%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <jsp:directive.include file="includes/top.jsp" />
 
 <div id="msg" class="warn">

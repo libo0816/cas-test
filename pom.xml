@@ -24,7 +24,7 @@
 	<properties>
 		<spring.version>4.2.3.RELEASE</spring.version>
 		<cas-server.version>4.1.10</cas-server.version>
-		<cs.dir>${project.parent.basedir}</cs.dir>
+		<checkstyle.skip>true</checkstyle.skip>
 	</properties>
 	<repositories>
 		<repository>
@@ -43,6 +43,16 @@
 			<artifactId>cas-server-support-jdbc</artifactId>
 			<version>${cas-server.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>org.jasig.service.persondir</groupId>
+			<artifactId>person-directory-impl</artifactId>
+			<version>1.7.1</version>
+		</dependency>
+		<dependency>
+              <groupId>org.apache.commons</groupId>
+              <artifactId>commons-collections4</artifactId>
+              <version>4.1</version>
+        </dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
